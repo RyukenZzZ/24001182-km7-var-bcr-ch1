@@ -64,8 +64,13 @@ body {
     margin-bottom: 1vh;
 }
 
+.testi.img{
+    max-width: 120px;
+    max-height: 120px;
+}
+
 @media (max-width: 767px) {
     .custom-carousel-control {
-      top:-33vh; /* Adjust this value to move the buttons higher */
+      top:-26vh; 
     }
   }
