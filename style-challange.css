@@ -1,0 +1,71 @@
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.custom-navbar {
+    width: fit-content; 
+    padding: 0.5rem 1rem; 
+    border-radius: 5px; 
+}
+
+.bg-navbar{
+    background-color: #f0f4ff;
+}
+  
+.hero-section {
+    padding-top: 60px;
+    background-color: #f0f4ff;
+}
+
+.hero-list {
+    list-style: none;
+    padding: 0;
+}
+.hero-list svg{
+    margin-right: 6px;
+}
+
+.hero-list li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.hero-list li i {
+    color: #CFD4ED;
+    margin-right: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+.testimonial-star{
+    color: yellow;
+    margin: 20px 0;
+}
+
+.testimonial-name{
+    font-weight: bold;
+}
+
+.accordion-item{
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.accordion-button{
+    border: 1px solid #D4D4D4;
+    border-radius: 4px;
+}
+
+.sosmed-icon a{
+    margin-right: 1vh;
+    margin-bottom: 1vh;
+}
+
+@media (max-width: 767px) {
+    .custom-carousel-control {
+      top:-33vh; /* Adjust this value to move the buttons higher */
+    }
+  }
